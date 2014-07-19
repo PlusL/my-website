@@ -1,0 +1,78 @@
+/* CSS Document */
+#manage-table #table-container  {
+	overflow:scroll;
+}
+
+
+
+#manage-table {
+	margin-top:1em;
+	background:#FFF;
+}
+#tool-container {
+	text-align:center;
+}
+#tool-container .tool {
+	margin:16px 40px 0 40px; /* 间距可调节 */
+	display:inline-block;
+}
+#tool-container .tool a {
+	font-size:16px;
+	text-align:center;
+	margin:0 auto;
+	padding:0 1em;
+	display:block;
+	height:30px;
+	line-height:30px;
+	transition:all ease-out 0.2s;
+	border-radius:20px;
+}
+#tool-container .tool a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+#tool-xls a {/* 注意a的border和a:hover的background的颜色一样 */
+	color:#278651;
+	border:solid 1px #278651;
+}
+#tool-xls a:hover {
+	background:#278651;
+}
+#tool-rar a {/* 注意a的border和a:hover的background的颜色一样 */
+	color:#0477ad;
+	border:solid 1px #0477ad;
+}
+#tool-rar a:hover {
+	background:#0477ad;
+}
+#tool-txt a {/* 注意a的border和a:hover的background的颜色一样 */
+	color:#f39c12;
+	border:solid 1px #f39c12;
+}
+#tool-txt a:hover {
+	background:#f39c12;
+}
+#tool-zongsu a {/* 注意a的border和a:hover的background的颜色一样 */
+	color:#e74c3c;
+	border:solid 1px #e74c3c;
+}
+#tool-zongsu a:hover {
+	background:#e74c3c;
+}
+#tool-erke a {/* 注意a的border和a:hover的background的颜色一样 */
+	color:#9b59b6;
+	border:solid 1px #9b59b6;
+}
+#tool-erke a:hover {
+	background:#9b59b6;
+}
+#tool-add #manage-add-msg {
+	color:#D2D0CE;
+	border:1px dashed #D2D0CE;
+	line-height:28px;
+	height:28px;
+}
+#tool-add #manage-add-msg:hover {
+	background:#D2D0CE;
+	color:#FFF;
+}
